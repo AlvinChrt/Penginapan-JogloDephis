@@ -1,0 +1,115 @@
+/* Authentication Styles */
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(gambar/about--bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.auth-box {
+    background: rgba(255, 255, 255, 0.88);
+    padding: 50px 80px 50px 80px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+  
+.auth-box h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+  
+.auth-box .input__group {
+    margin-bottom: 15px;
+}
+  
+.auth-box .input__group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+  
+.auth-box .input__group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.auth-box .btn {
+    width: 100%;
+    padding: 10px;
+    background: #f6ac0f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.auth-box .btn:hover {
+    background: #64748b;
+}
+  
+.auth-box p {
+    margin-top: 15px;
+}
+  
+.auth-box p a {
+    color: #f6ac0f;
+    text-decoration: none;
+}
+  
+.auth-box p a:hover {
+    text-decoration: underline;
+}
+
+.login_btn{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px; /* Padding for better click area */
+    font-size: 10px; /* Font size for better readability */
+    color: #fff; /* White text */
+    background-color: #007bff; /* Primary blue background color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.register_btn{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px; /* Padding for better click area */
+    font-size: 10px; /* Font size for better readability */
+    color: #fff; /* White text */
+    background-color: #007bff; /* Primary blue background color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.login_btn:hover{
+    background-color: #64748b;
+}
+
+.register_btn:hover{
+    background-color: #64748b;
+}
